@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour
 			if(Input.GetKey(KeyCode.Space))
 			   moveDirection.y = jumpSpeed;
 		}
-		//Door de zwaartekracht wordt de personage weer naar beneden gehaald.
+		//Door de zwaartekracht wordt het personage weer naar beneden gehaald.
 		moveDirection.y -= gravity * Time.deltaTime;
 		controller.Move(moveDirection * Time.deltaTime);
   	}

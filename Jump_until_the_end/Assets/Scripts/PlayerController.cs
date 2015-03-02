@@ -1,5 +1,7 @@
 using UnityEngine;
+using System;
 using System.Collections;
+
 public class PlayerController : MonoBehaviour
 {
 	public float speed;
@@ -12,12 +14,12 @@ public class PlayerController : MonoBehaviour
 		CharacterController controller = GetComponent<CharacterController> ();
 		if (controller.isGrounded)
 		{
-			//Geeft aan dat de personage alleen horizontaal en in de diepte kan lopen.
+			//Geeft aan dat het personage alleen horizontaal kan lopen.
 			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
 			moveDirection = transform.TransformDirection(moveDirection);
 			moveDirection *= speed;
-			//Als de spatie wordt ingedrukt, springt de personage omhoog.
-			if(Input.GetKey(KeyCode.Space))
+			//Als de jump-toets wordt ingedrukt, springt het personage omhoog.
+			if(Convert.ToBoolean(Input.GetAxis("Jump")))
 			   moveDirection.y = jumpSpeed;
 		}
 		//Door de zwaartekracht wordt het personage weer naar beneden gehaald.

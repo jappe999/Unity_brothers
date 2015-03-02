@@ -13,7 +13,7 @@ public class PlayerController : MonoBehaviour
 		if (controller.isGrounded)
 		{
 			//Geeft aan dat de personage alleen horizontaal en in de diepte kan lopen.
-			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, Input.GetAxis("Vertical"));
+			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0.0f, 0.0f);
 			moveDirection = transform.TransformDirection(moveDirection);
 			moveDirection *= speed;
 			//Als de spatie wordt ingedrukt, springt de personage omhoog.

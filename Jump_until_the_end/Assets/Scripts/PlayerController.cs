@@ -15,11 +15,11 @@ public class PlayerController : MonoBehaviour
 		if (controller.isGrounded)
 		{
 			//Geeft aan dat het personage alleen horizontaal kan lopen.
-			moveDirection = new Vector3 (Input.GetAxis ("Horizontal"), 0.0f, 0.0f);
+			moveDirection = new Vector3 (Input.GetAxis("Horizontal"), 0.0f, 0.0f);
 			moveDirection = transform.TransformDirection(moveDirection);
 			moveDirection *= speed;
 			//Als de jump-toets wordt ingedrukt, springt het personage omhoog.
-			if(Convert.ToBoolean(Input.GetAxis ("Jump")))
+			if(Convert.ToBoolean(Input.GetAxis("Jump")))
 			   moveDirection.y = jumpSpeed;
 		}
 		moveDirection.x = Input.GetAxis ("Horizontal") * speed;

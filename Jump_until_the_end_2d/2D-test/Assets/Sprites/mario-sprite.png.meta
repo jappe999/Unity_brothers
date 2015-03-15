@@ -172,54 +172,64 @@ TextureImporter:
     - name: mario-sprite_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 1149
-        width: 28
-        height: 35
+        x: 6
+        y: 1138
+        width: 37
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_1
       rect:
         serializedVersion: 2
-        x: 73
-        y: 1147
-        width: 35
-        height: 37
+        x: 71
+        y: 1138
+        width: 37
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_2
       rect:
         serializedVersion: 2
-        x: 203
-        y: 1147
-        width: 38
-        height: 37
+        x: 137
+        y: 1131
+        width: 39
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_3
       rect:
         serializedVersion: 2
-        x: 337
-        y: 1147
-        width: 33
-        height: 37
+        x: 202
+        y: 1131
+        width: 39
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_4
       rect:
         serializedVersion: 2
-        x: 401
-        y: 1147
-        width: 37
-        height: 37
+        x: 268
+        y: 1131
+        width: 39
+        height: 69
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 1149
+        width: 34
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario-sprite_6
       rect:
         serializedVersion: 2
         x: 466
@@ -229,43 +239,33 @@ TextureImporter:
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: mario-sprite_6
-      rect:
-        serializedVersion: 2
-        x: 598
-        y: 1149
-        width: 34
-        height: 35
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_7
       rect:
         serializedVersion: 2
-        x: 660
-        y: 1131
-        width: 39
-        height: 69
+        x: 529
+        y: 1147
+        width: 37
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_8
       rect:
         serializedVersion: 2
-        x: 726
-        y: 1131
-        width: 39
-        height: 69
+        x: 597
+        y: 1147
+        width: 33
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_9
       rect:
         serializedVersion: 2
-        x: 791
-        y: 1131
-        width: 39
-        height: 69
+        x: 726
+        y: 1147
+        width: 38
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -273,26 +273,26 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 859
-        y: 1138
-        width: 37
-        height: 57
+        y: 1147
+        width: 35
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_11
       rect:
         serializedVersion: 2
-        x: 924
-        y: 1138
-        width: 37
-        height: 57
+        x: 927
+        y: 1149
+        width: 28
+        height: 35
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_12
       rect:
         serializedVersion: 2
-        x: 8
+        x: 6
         y: 1059
         width: 37
         height: 37
@@ -302,9 +302,9 @@ TextureImporter:
     - name: mario-sprite_13
       rect:
         serializedVersion: 2
-        x: 73
+        x: 401
         y: 1059
-        width: 37
+        width: 32
         height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -312,27 +312,27 @@ TextureImporter:
     - name: mario-sprite_14
       rect:
         serializedVersion: 2
-        x: 193
-        y: 1059
-        width: 57
-        height: 40
+        x: 466
+        y: 1062
+        width: 33
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_15
       rect:
         serializedVersion: 2
-        x: 258
+        x: 529
         y: 1059
-        width: 59
-        height: 40
+        width: 37
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_16
       rect:
         serializedVersion: 2
-        x: 335
+        x: 595
         y: 1059
         width: 37
         height: 37
@@ -342,29 +342,29 @@ TextureImporter:
     - name: mario-sprite_17
       rect:
         serializedVersion: 2
-        x: 401
+        x: 650
         y: 1059
-        width: 37
-        height: 37
+        width: 59
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_18
       rect:
         serializedVersion: 2
-        x: 468
-        y: 1062
-        width: 33
-        height: 34
+        x: 717
+        y: 1059
+        width: 57
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_19
       rect:
         serializedVersion: 2
-        x: 534
+        x: 857
         y: 1059
-        width: 32
+        width: 37
         height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -372,7 +372,7 @@ TextureImporter:
     - name: mario-sprite_20
       rect:
         serializedVersion: 2
-        x: 924
+        x: 922
         y: 1059
         width: 37
         height: 37
@@ -382,9 +382,9 @@ TextureImporter:
     - name: mario-sprite_21
       rect:
         serializedVersion: 2
-        x: 10
+        x: 6
         y: 960
-        width: 32
+        width: 37
         height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -392,7 +392,7 @@ TextureImporter:
     - name: mario-sprite_22
       rect:
         serializedVersion: 2
-        x: 73
+        x: 71
         y: 960
         width: 37
         height: 62
@@ -402,57 +402,57 @@ TextureImporter:
     - name: mario-sprite_23
       rect:
         serializedVersion: 2
-        x: 139
-        y: 960
-        width: 37
-        height: 60
+        x: 134
+        y: 946
+        width: 42
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_24
       rect:
         serializedVersion: 2
-        x: 203
-        y: 960
-        width: 38
-        height: 60
+        x: 200
+        y: 946
+        width: 41
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_25
       rect:
         serializedVersion: 2
-        x: 271
-        y: 970
-        width: 33
-        height: 41
+        x: 265
+        y: 946
+        width: 42
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_26
       rect:
         serializedVersion: 2
-        x: 335
-        y: 959
+        x: 333
+        y: 960
         width: 37
-        height: 63
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_27
       rect:
         serializedVersion: 2
-        x: 394
-        y: 960
-        width: 48
-        height: 62
+        x: 399
+        y: 963
+        width: 36
+        height: 57
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_28
       rect:
         serializedVersion: 2
-        x: 466
+        x: 464
         y: 960
         width: 37
         height: 60
@@ -462,30 +462,30 @@ TextureImporter:
     - name: mario-sprite_29
       rect:
         serializedVersion: 2
-        x: 532
-        y: 963
-        width: 36
-        height: 57
+        x: 525
+        y: 960
+        width: 48
+        height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_30
       rect:
         serializedVersion: 2
-        x: 597
-        y: 960
+        x: 595
+        y: 959
         width: 37
-        height: 62
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_31
       rect:
         serializedVersion: 2
-        x: 660
-        y: 946
-        width: 42
-        height: 89
+        x: 663
+        y: 970
+        width: 33
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -493,9 +493,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 726
-        y: 946
-        width: 41
-        height: 89
+        y: 960
+        width: 38
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,16 +503,16 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 791
-        y: 946
-        width: 42
-        height: 89
+        y: 960
+        width: 37
+        height: 60
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_34
       rect:
         serializedVersion: 2
-        x: 859
+        x: 857
         y: 960
         width: 37
         height: 62
@@ -522,9 +522,9 @@ TextureImporter:
     - name: mario-sprite_35
       rect:
         serializedVersion: 2
-        x: 924
+        x: 925
         y: 960
-        width: 37
+        width: 32
         height: 62
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -532,49 +532,49 @@ TextureImporter:
     - name: mario-sprite_36
       rect:
         serializedVersion: 2
-        x: 3
-        y: 874
-        width: 44
-        height: 61
+        x: 215
+        y: 895
+        width: 20
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_37
       rect:
         serializedVersion: 2
-        x: 69
-        y: 874
-        width: 43
-        height: 61
+        x: 273
+        y: 891
+        width: 29
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_38
       rect:
         serializedVersion: 2
-        x: 134
-        y: 874
-        width: 44
-        height: 59
+        x: 332
+        y: 889
+        width: 32
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_39
       rect:
         serializedVersion: 2
-        x: 193
+        x: 396
         y: 874
-        width: 57
-        height: 61
+        width: 44
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_40
       rect:
         serializedVersion: 2
-        x: 258
+        x: 462
         y: 874
-        width: 59
+        width: 41
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -582,29 +582,29 @@ TextureImporter:
     - name: mario-sprite_41
       rect:
         serializedVersion: 2
-        x: 322
-        y: 874
-        width: 61
-        height: 59
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: mario-sprite_42
-      rect:
-        serializedVersion: 2
-        x: 396
+        x: 527
         y: 874
         width: 44
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario-sprite_42
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 874
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_43
       rect:
         serializedVersion: 2
-        x: 464
+        x: 650
         y: 874
-        width: 41
+        width: 59
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -612,49 +612,49 @@ TextureImporter:
     - name: mario-sprite_44
       rect:
         serializedVersion: 2
-        x: 527
+        x: 717
         y: 874
-        width: 44
-        height: 59
+        width: 57
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_45
       rect:
         serializedVersion: 2
-        x: 603
-        y: 888
-        width: 33
-        height: 30
+        x: 789
+        y: 874
+        width: 44
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_46
       rect:
         serializedVersion: 2
-        x: 662
-        y: 890
-        width: 32
-        height: 28
+        x: 855
+        y: 874
+        width: 43
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_47
       rect:
         serializedVersion: 2
-        x: 732
-        y: 894
-        width: 21
-        height: 19
+        x: 920
+        y: 874
+        width: 44
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_48
       rect:
         serializedVersion: 2
-        x: 10
+        x: 6
         y: 787
-        width: 32
+        width: 37
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -662,7 +662,7 @@ TextureImporter:
     - name: mario-sprite_49
       rect:
         serializedVersion: 2
-        x: 73
+        x: 71
         y: 787
         width: 37
         height: 61
@@ -672,57 +672,57 @@ TextureImporter:
     - name: mario-sprite_50
       rect:
         serializedVersion: 2
-        x: 139
-        y: 787
+        x: 137
+        y: 771
         width: 37
-        height: 58
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_51
       rect:
         serializedVersion: 2
-        x: 203
-        y: 787
-        width: 38
-        height: 58
+        x: 202
+        y: 771
+        width: 39
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_52
       rect:
         serializedVersion: 2
-        x: 271
-        y: 795
-        width: 33
-        height: 42
+        x: 268
+        y: 771
+        width: 39
+        height: 90
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_53
       rect:
         serializedVersion: 2
-        x: 335
-        y: 785
+        x: 333
+        y: 787
         width: 37
-        height: 63
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_54
       rect:
         serializedVersion: 2
-        x: 394
-        y: 787
-        width: 48
-        height: 61
+        x: 399
+        y: 789
+        width: 36
+        height: 56
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_55
       rect:
         serializedVersion: 2
-        x: 466
+        x: 464
         y: 787
         width: 37
         height: 58
@@ -732,30 +732,30 @@ TextureImporter:
     - name: mario-sprite_56
       rect:
         serializedVersion: 2
-        x: 532
-        y: 789
-        width: 36
-        height: 56
+        x: 525
+        y: 787
+        width: 48
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_57
       rect:
         serializedVersion: 2
-        x: 597
-        y: 787
+        x: 595
+        y: 785
         width: 37
-        height: 61
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_58
       rect:
         serializedVersion: 2
-        x: 660
-        y: 771
-        width: 39
-        height: 90
+        x: 663
+        y: 795
+        width: 33
+        height: 42
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -763,26 +763,26 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 726
-        y: 771
-        width: 39
-        height: 90
+        y: 787
+        width: 38
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_60
       rect:
         serializedVersion: 2
-        x: 793
-        y: 771
+        x: 791
+        y: 787
         width: 37
-        height: 90
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_61
       rect:
         serializedVersion: 2
-        x: 859
+        x: 857
         y: 787
         width: 37
         height: 61
@@ -792,9 +792,9 @@ TextureImporter:
     - name: mario-sprite_62
       rect:
         serializedVersion: 2
-        x: 924
+        x: 925
         y: 787
-        width: 37
+        width: 32
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -802,9 +802,9 @@ TextureImporter:
     - name: mario-sprite_63
       rect:
         serializedVersion: 2
-        x: 3
+        x: 270
         y: 699
-        width: 44
+        width: 32
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -812,9 +812,9 @@ TextureImporter:
     - name: mario-sprite_64
       rect:
         serializedVersion: 2
-        x: 69
+        x: 335
         y: 699
-        width: 43
+        width: 34
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -822,7 +822,7 @@ TextureImporter:
     - name: mario-sprite_65
       rect:
         serializedVersion: 2
-        x: 134
+        x: 396
         y: 699
         width: 44
         height: 59
@@ -832,9 +832,9 @@ TextureImporter:
     - name: mario-sprite_66
       rect:
         serializedVersion: 2
-        x: 193
+        x: 462
         y: 699
-        width: 57
+        width: 41
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -842,9 +842,9 @@ TextureImporter:
     - name: mario-sprite_67
       rect:
         serializedVersion: 2
-        x: 258
+        x: 527
         y: 699
-        width: 59
+        width: 44
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -852,7 +852,7 @@ TextureImporter:
     - name: mario-sprite_68
       rect:
         serializedVersion: 2
-        x: 322
+        x: 584
         y: 699
         width: 61
         height: 59
@@ -862,9 +862,9 @@ TextureImporter:
     - name: mario-sprite_69
       rect:
         serializedVersion: 2
-        x: 396
+        x: 650
         y: 699
-        width: 44
+        width: 59
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -872,9 +872,9 @@ TextureImporter:
     - name: mario-sprite_70
       rect:
         serializedVersion: 2
-        x: 464
+        x: 717
         y: 699
-        width: 41
+        width: 57
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -882,7 +882,7 @@ TextureImporter:
     - name: mario-sprite_71
       rect:
         serializedVersion: 2
-        x: 527
+        x: 789
         y: 699
         width: 44
         height: 59
@@ -892,9 +892,9 @@ TextureImporter:
     - name: mario-sprite_72
       rect:
         serializedVersion: 2
-        x: 598
+        x: 855
         y: 699
-        width: 34
+        width: 43
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -902,9 +902,9 @@ TextureImporter:
     - name: mario-sprite_73
       rect:
         serializedVersion: 2
-        x: 665
+        x: 920
         y: 699
-        width: 32
+        width: 44
         height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -912,9 +912,9 @@ TextureImporter:
     - name: mario-sprite_74
       rect:
         serializedVersion: 2
-        x: 1
+        x: 6
         y: 610
-        width: 48
+        width: 37
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -922,9 +922,9 @@ TextureImporter:
     - name: mario-sprite_75
       rect:
         serializedVersion: 2
-        x: 67
+        x: 71
         y: 610
-        width: 50
+        width: 37
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -932,49 +932,49 @@ TextureImporter:
     - name: mario-sprite_76
       rect:
         serializedVersion: 2
-        x: 130
-        y: 612
-        width: 52
-        height: 61
+        x: 128
+        y: 597
+        width: 57
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_77
       rect:
         serializedVersion: 2
-        x: 195
-        y: 612
-        width: 53
-        height: 61
+        x: 193
+        y: 597
+        width: 57
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_78
       rect:
         serializedVersion: 2
-        x: 263
-        y: 621
-        width: 51
-        height: 41
+        x: 258
+        y: 597
+        width: 57
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_79
       rect:
         serializedVersion: 2
-        x: 335
-        y: 608
+        x: 333
+        y: 610
         width: 37
-        height: 68
+        height: 66
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_80
       rect:
         serializedVersion: 2
-        x: 394
+        x: 377
         y: 610
-        width: 48
+        width: 37
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -982,29 +982,29 @@ TextureImporter:
     - name: mario-sprite_81
       rect:
         serializedVersion: 2
-        x: 455
-        y: 612
-        width: 37
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: mario-sprite_82
-      rect:
-        serializedVersion: 2
-        x: 499
+        x: 431
         y: 610
         width: 37
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: mario-sprite_82
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 612
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_83
       rect:
         serializedVersion: 2
-        x: 553
+        x: 525
         y: 610
-        width: 37
+        width: 48
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1012,49 +1012,49 @@ TextureImporter:
     - name: mario-sprite_84
       rect:
         serializedVersion: 2
-        x: 597
-        y: 610
+        x: 595
+        y: 608
         width: 37
-        height: 66
+        height: 68
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_85
       rect:
         serializedVersion: 2
-        x: 652
-        y: 597
-        width: 57
-        height: 89
+        x: 653
+        y: 621
+        width: 51
+        height: 41
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_86
       rect:
         serializedVersion: 2
-        x: 717
-        y: 597
-        width: 57
-        height: 89
+        x: 719
+        y: 612
+        width: 53
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_87
       rect:
         serializedVersion: 2
-        x: 782
-        y: 597
-        width: 57
-        height: 89
+        x: 785
+        y: 612
+        width: 52
+        height: 61
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_88
       rect:
         serializedVersion: 2
-        x: 859
+        x: 850
         y: 610
-        width: 37
+        width: 50
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1062,9 +1062,9 @@ TextureImporter:
     - name: mario-sprite_89
       rect:
         serializedVersion: 2
-        x: 924
+        x: 918
         y: 610
-        width: 37
+        width: 48
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1074,7 +1074,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 523
-        width: 53
+        width: 51
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1082,19 +1082,19 @@ TextureImporter:
     - name: mario-sprite_91
       rect:
         serializedVersion: 2
-        x: 56
-        y: 523
-        width: 54
-        height: 64
+        x: 62
+        y: 524
+        width: 55
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_92
       rect:
         serializedVersion: 2
-        x: 112
+        x: 128
         y: 524
-        width: 55
+        width: 54
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1102,9 +1102,9 @@ TextureImporter:
     - name: mario-sprite_93
       rect:
         serializedVersion: 2
-        x: 169
+        x: 193
         y: 523
-        width: 146
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1112,29 +1112,29 @@ TextureImporter:
     - name: mario-sprite_94
       rect:
         serializedVersion: 2
-        x: 318
-        y: 524
-        width: 76
-        height: 63
+        x: 261
+        y: 523
+        width: 50
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_95
       rect:
         serializedVersion: 2
-        x: 396
-        y: 523
-        width: 55
-        height: 64
+        x: 326
+        y: 524
+        width: 53
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_96
       rect:
         serializedVersion: 2
-        x: 457
+        x: 392
         y: 523
-        width: 55
+        width: 52
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1142,9 +1142,9 @@ TextureImporter:
     - name: mario-sprite_97
       rect:
         serializedVersion: 2
-        x: 523
+        x: 455
         y: 523
-        width: 52
+        width: 55
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1152,29 +1152,29 @@ TextureImporter:
     - name: mario-sprite_98
       rect:
         serializedVersion: 2
-        x: 588
-        y: 524
-        width: 53
-        height: 63
+        x: 516
+        y: 523
+        width: 55
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_99
       rect:
         serializedVersion: 2
-        x: 656
-        y: 523
-        width: 50
-        height: 64
+        x: 573
+        y: 524
+        width: 76
+        height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_100
       rect:
         serializedVersion: 2
-        x: 719
+        x: 652
         y: 523
-        width: 55
+        width: 146
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1182,9 +1182,9 @@ TextureImporter:
     - name: mario-sprite_101
       rect:
         serializedVersion: 2
-        x: 785
+        x: 800
         y: 524
-        width: 54
+        width: 55
         height: 63
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1192,19 +1192,19 @@ TextureImporter:
     - name: mario-sprite_102
       rect:
         serializedVersion: 2
-        x: 850
-        y: 524
-        width: 55
-        height: 63
+        x: 857
+        y: 523
+        width: 54
+        height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_103
       rect:
         serializedVersion: 2
-        x: 916
+        x: 914
         y: 523
-        width: 51
+        width: 53
         height: 64
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1212,37 +1212,37 @@ TextureImporter:
     - name: mario-sprite_104
       rect:
         serializedVersion: 2
-        x: 1
-        y: 471
-        width: 36
-        height: 34
+        x: 432
+        y: 441
+        width: 44
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_105
       rect:
         serializedVersion: 2
-        x: 45
-        y: 471
+        x: 676
+        y: 440
         width: 36
-        height: 14
+        height: 59
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_106
       rect:
         serializedVersion: 2
-        x: 107
-        y: 435
-        width: 39
-        height: 77
+        x: 725
+        y: 458
+        width: 43
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_107
       rect:
         serializedVersion: 2
-        x: 163
+        x: 784
         y: 478
         width: 20
         height: 22
@@ -1252,59 +1252,59 @@ TextureImporter:
     - name: mario-sprite_108
       rect:
         serializedVersion: 2
-        x: 199
-        y: 458
-        width: 43
-        height: 43
+        x: 821
+        y: 435
+        width: 39
+        height: 77
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_109
       rect:
         serializedVersion: 2
-        x: 255
-        y: 440
+        x: 886
+        y: 471
         width: 36
-        height: 59
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_110
       rect:
         serializedVersion: 2
-        x: 491
-        y: 441
-        width: 44
-        height: 40
+        x: 930
+        y: 471
+        width: 36
+        height: 34
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_111
       rect:
         serializedVersion: 2
-        x: 0
-        y: 398
-        width: 39
-        height: 58
+        x: 501
+        y: 439
+        width: 36
+        height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_112
       rect:
         serializedVersion: 2
-        x: 47
-        y: 417
-        width: 33
-        height: 39
+        x: 558
+        y: 439
+        width: 35
+        height: 37
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_113
       rect:
         serializedVersion: 2
-        x: 200
-        y: 408
-        width: 39
+        x: 619
+        y: 439
+        width: 36
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1312,9 +1312,9 @@ TextureImporter:
     - name: mario-sprite_114
       rect:
         serializedVersion: 2
-        x: 312
-        y: 439
-        width: 36
+        x: 728
+        y: 408
+        width: 39
         height: 36
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1322,27 +1322,27 @@ TextureImporter:
     - name: mario-sprite_115
       rect:
         serializedVersion: 2
-        x: 374
-        y: 439
-        width: 36
-        height: 37
+        x: 887
+        y: 417
+        width: 33
+        height: 39
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_116
       rect:
         serializedVersion: 2
-        x: 430
-        y: 439
-        width: 36
-        height: 36
+        x: 928
+        y: 398
+        width: 39
+        height: 58
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: mario-sprite_117
       rect:
         serializedVersion: 2
-        x: 1
+        x: 898
         y: 350
         width: 68
         height: 40

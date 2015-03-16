@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using System;
-using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -12,7 +11,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         controller = GetComponent<CharacterController>();
-        animation.Play("Run");
+        //animation.Play("Run");
     }
 
     void Update()
@@ -27,7 +26,6 @@ public class PlayerController : MonoBehaviour
             if (Convert.ToBoolean(Input.GetAxis("Jump")))
             {
                 moveDirection.y = jumpSpeed;
-
             }
         }
         moveDirection.x = Input.GetAxis("Horizontal") * speed;

@@ -1,6 +1,6 @@
-﻿﻿using UnityEngine;
+﻿using UnityEngine;
 using System;
-using System.Math;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -41,8 +41,8 @@ public class PlayerController : MonoBehaviour
         if (controller.isGrounded)
             verticalKineticEnergy = 0;
 
-        float speed = Math.Sqrt(2 * verticalKineticEnergy / mass);
-        float deltaDistance = speed * time.deltaTime;
+        float speed = (float) Math.Sqrt(Convert.ToDouble( 2 * verticalKineticEnergy / mass));
+        float deltaDistance = speed * Time.deltaTime;
 
         return deltaDistance;
     }

@@ -32,6 +32,7 @@ public class PlayerController : MonoBehaviour
         //Door de zwaartekracht wordt het personage weer naar beneden gehaald.
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
+		print(controller.);
     }
 
     private float calculateNewPositionOnYAsix()

@@ -1,5 +1,61 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections;
+
+public class PlayerController: MonoBehaviour
+{
+	public float maxSpeed = 10f;
+	
+	Animator anim;
+	
+	bool grounded = true;
+	public float jumpForce = 700f;
+	public float jumpDelay;
+	protected float nextJump;
+	public bool dead;
+	
+	void Start ()
+	{
+		anim = GetComponent<Animator>();
+	}
+	
+	void FixedUpdate ()
+	{		
+		if (Time.time >= nextJump)
+		{
+			anim.SetBool ("Ground", grounded);
+		}
+		
+		float move = Input.GetAxis ("Horizontal");
+		
+		rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
+	}
+	
+	void Update ()
+	{	
+		if(Convert.ToBoolean(Input.GetAxis("Jump")) && Time.time >= nextJump)
+		{
+			anim.SetBool("Ground", false);
+			rigidbody2D.AddForce(new Vector2(0, jumpForce));
+			nextJump = Time.time + jumpDelay;
+		}
+	}
+	
+	void OnTriggerEnter2D (Collider2D other)
+	{
+		if (other.tag == "DeathZone" || other.tag == "Enemy") {
+			anim.SetBool ("Die", true);
+			Destroy(gameObject.GetComponent("CircleCollider2D"));
+			Destroy(gameObject.GetComponent("BoxCollider2D"));
+			Destroy(gameObject.GetComponent("PolygonCollider2D"));
+			gameObject.tag = "DeadPlayer";
+			print ("You just died...");
+		}
+	}
+}
+/*
+using UnityEngine;
+using System;
 
 public class PlayerController : MonoBehaviour
 {
@@ -32,7 +88,6 @@ public class PlayerController : MonoBehaviour
         //Door de zwaartekracht wordt het personage weer naar beneden gehaald.
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
-		print(controller.);
     }
 
     private float calculateNewPositionOnYAsix()
@@ -46,3 +101,4 @@ public class PlayerController : MonoBehaviour
         return deltaDistance;
     }
 }
+*/

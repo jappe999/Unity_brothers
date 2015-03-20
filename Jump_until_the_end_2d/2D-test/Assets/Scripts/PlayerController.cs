@@ -2,9 +2,16 @@
 using System;
 using System.Collections;
 
+[System.Serializable]
+public class Boundary
+{
+	public float xMin, xMax;
+}
+
 public class PlayerController: MonoBehaviour
 {
 	public float maxSpeed = 10f;
+	public Boundary boundary;
 	
 	Animator anim;
 	
@@ -29,6 +36,11 @@ public class PlayerController: MonoBehaviour
 		float move = Input.GetAxis ("Horizontal");
 		
 		rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
+		rigidbody2D.position = new Vector2
+		(
+			Mathf.Clamp (rigidbody2D.position.x, boundary.xMin, boundary.xMax),
+			rigidbody2D.position.y
+		);
 	}
 	
 	void Update ()

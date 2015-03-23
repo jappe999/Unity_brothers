@@ -48,10 +48,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\BackgroundMover.cs" />
      <Compile Include="Assets\Scripts\BackgroundRepeater.cs" />
-     <Compile Include="Assets\Scripts\ExitBoundary.cs" />
-     <Compile Include="Assets\Scripts\MoveBackground.cs" />
+     <Compile Include="Assets\Scripts\GameController.cs" />
+     <Compile Include="Assets\Scripts\HelperClasses.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
-     <Compile Include="Assets\Scripts\UpdateBackground.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
  </Reference>

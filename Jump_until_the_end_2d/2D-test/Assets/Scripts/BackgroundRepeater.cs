@@ -10,7 +10,7 @@ public class BackgroundRepeater : MonoBehaviour {
 
 	void Start ()
 	{
-		nextBackground = rate;
+		nextBackground = Time.time + rate;
 	}
 	
 	void Update ()

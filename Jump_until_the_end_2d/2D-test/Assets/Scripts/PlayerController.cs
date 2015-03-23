@@ -1,12 +1,7 @@
 ﻿using UnityEngine;
 using System;
 using System.Collections;
-
-[System.Serializable]
-public class Boundary
-{
-	public float xMin, xMax;
-}
+using HelperClasses;
 
 public class PlayerController: MonoBehaviour
 {

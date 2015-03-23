@@ -12,7 +12,6 @@ GameObject:
   - 95: {fileID: 9586834}
   - 61: {fileID: 6186836}
   - 114: {fileID: 11486834}
-  - 50: {fileID: 5086834}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -47,7 +46,6 @@ GameObject:
   - 95: {fileID: 9586836}
   - 61: {fileID: 6186834}
   - 114: {fileID: 11486836}
-  - 50: {fileID: 5086836}
   m_Layer: 0
   m_Name: Background
   m_TagString: Untagged
@@ -93,36 +91,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 486836}
   m_RootOrder: 0
---- !u!50 &5086834
-Rigidbody2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 186834}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
---- !u!50 &5086836
-Rigidbody2D:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 186838}
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: .0500000007
-  m_GravityScale: 0
-  m_FixedAngle: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
 --- !u!61 &6186834
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -186,7 +154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9551576a13999914f832098a53858e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 4
+  maxSpeed: 2
 --- !u!114 &11486836
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -198,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9551576a13999914f832098a53858e6b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 4
+  maxSpeed: 2
 --- !u!212 &21286834
 SpriteRenderer:
   m_ObjectHideFlags: 1

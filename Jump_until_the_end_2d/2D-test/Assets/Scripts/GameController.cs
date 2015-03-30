@@ -15,6 +15,8 @@ public class GameController : MonoBehaviour {
 	public Position playerSpawn;
 	private int numberOfPlayersInGame;
 	private float startTime;
+	[HideInInspector]
+	public PlayerController playerController;
 
 	// Use this for initialization
 	void Start () 
@@ -23,6 +25,7 @@ public class GameController : MonoBehaviour {
 		Instantiate(background, new Vector2(backgroundSpawn.x, backgroundSpawn.y), new Quaternion(0, 0, 0, 0));
 		numberOfPlayersInGame = 0;
 		startTime = Time.time;
+		playerController = player.GetComponent<PlayerController>;
 	}
 	
 	// Update is called once per frame
@@ -33,7 +36,7 @@ public class GameController : MonoBehaviour {
 			Instantiate(player, new Vector2(playerSpawn.x, playerSpawn.y), new Quaternion(0, 0, 0, 0));
 			numberOfPlayersInGame++;
 		}
-		Debug.Log(startTime);
+		//playerController.
 	}
 
 	private bool testPlayerSpawnable()

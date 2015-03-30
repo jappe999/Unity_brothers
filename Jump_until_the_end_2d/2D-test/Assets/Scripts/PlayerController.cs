@@ -15,6 +15,8 @@ public class PlayerController: MonoBehaviour
 	public float jumpDelay;
 	protected float nextJump;
 	public bool dead;
+	public GameObject floor;
+	public float timeLastPointObtained;
 	
 	void Start ()
 	{
@@ -40,12 +42,29 @@ public class PlayerController: MonoBehaviour
 	
 	void Update ()
 	{	
-		if(Convert.ToBoolean(Input.GetAxis("Jump")) && Time.time >= nextJump)
+		if(Convert.ToBoolean(Input.GetAxis("Jump")) && Time.time >= nextJump && testGrounded())
 		{
 			anim.SetBool("Ground", false);
 			rigidbody2D.AddForce(new Vector2(0, jumpForce));
 			nextJump = Time.time + jumpDelay;
 		}
+	}
+
+	void OnTriggerEnter(Collider other)
+	{
+		if(other.gameObject.tag == "dead")
+			dead = true;
+		else if(other.gameObject.tag == "point")
+			timeLastPointObtained = Time.time;
+	}
+
+	private bool testGrounded()
+	{
+		float height = transform.position.y;
+		float heightFloor = floor.transform.position.y;
+		if(height <= heightFloor)
+			return false;
+		return true;
 	}
 	
 	void OnTriggerEnter2D (Collider2D other)

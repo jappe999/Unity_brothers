@@ -102,6 +102,7 @@ MonoBehaviour:
   jumpDelay: 1.29999995
   dead: 0
   floor: {fileID: 121436, guid: 151065cc2504007488ef7bcd5aac1881, type: 2}
+  timeLastPointObtained: 0
 --- !u!212 &21239510
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -10,11 +10,16 @@ public class GameController : MonoBehaviour {
 	public GameObject background;
 	public Position backgroundSpawn;
 
+	public GameObject enemies;
+	public Position enemiesSpawn;
+
 	public GameObject player;
 	public int numberOfPlayersAllowed = 1;
 	public Position playerSpawn;
 	private int numberOfPlayersInGame;
+
 	private float startTime;
+
 	[HideInInspector]
 	public PlayerController playerController;
 
@@ -25,7 +30,7 @@ public class GameController : MonoBehaviour {
 		Instantiate(background, new Vector2(backgroundSpawn.x, backgroundSpawn.y), new Quaternion(0, 0, 0, 0));
 		numberOfPlayersInGame = 0;
 		startTime = Time.time;
-		playerController = player.GetComponent<PlayerController>;
+		playerController = player.GetComponent<PlayerController>() ;
 	}
 	
 	// Update is called once per frame
@@ -34,6 +39,7 @@ public class GameController : MonoBehaviour {
 		if(testPlayerSpawnable())
 		{
 			Instantiate(player, new Vector2(playerSpawn.x, playerSpawn.y), new Quaternion(0, 0, 0, 0));
+			Instantiate(enemies, new Vector2(enemiesSpawn.x, enemiesSpawn.y), new Quaternion(0, 0, 0, 0));
 			numberOfPlayersInGame++;
 		}
 		//playerController.

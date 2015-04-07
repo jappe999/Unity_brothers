@@ -14,7 +14,6 @@ public class PlayerController: MonoBehaviour
 	public float jumpForce = 700f;
 	public float jumpDelay;
 	protected float nextJump;
-	public bool dead;
 	public GameObject floor;
 	public float timeLastPointObtained;
 	
@@ -53,7 +52,7 @@ public class PlayerController: MonoBehaviour
 	void OnTriggerEnter(Collider other)
 	{
 		if(other.gameObject.tag == "dead")
-			dead = true;
+			anim.SetBool ("Die", true);
 		else if(other.gameObject.tag == "point")
 			timeLastPointObtained = Time.time;
 	}

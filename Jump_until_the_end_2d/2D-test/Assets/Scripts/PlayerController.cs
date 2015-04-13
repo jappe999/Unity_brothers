@@ -17,6 +17,9 @@ public class PlayerController: MonoBehaviour
 	public GameObject floor;
 	public float timeLastPointObtained;
 	
+	[HideInInspector]
+	public int score = 0;
+	
 	void Start ()
 	{
 		anim = GetComponent<Animator>();
@@ -68,14 +71,16 @@ public class PlayerController: MonoBehaviour
 	
 	void OnTriggerEnter2D (Collider2D other)
 	{
-		if (other.tag == "DeathZone" || other.tag == "Enemy") {
+		if (other.tag == "DeathZone" || other.tag == "Enemy") 
+		{
 			anim.SetBool ("Die", true);
 			Destroy(gameObject.GetComponent("CircleCollider2D"));
 			Destroy(gameObject.GetComponent("BoxCollider2D"));
 			Destroy(gameObject.GetComponent("PolygonCollider2D"));
 			gameObject.tag = "DeadPlayer";
 			print ("You just died...");
-		}
+		} else if(other.tag == "point")
+			score++;
 	}
 }
 /*

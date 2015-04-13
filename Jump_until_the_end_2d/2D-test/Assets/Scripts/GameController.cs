@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Threading;
 using System.Collections;
 using HelperClasses;
 
@@ -43,9 +44,11 @@ public class GameController : MonoBehaviour {
 			Instantiate(player, new Vector2(playerSpawn.x, playerSpawn.y), new Quaternion(0, 0, 0, 0));
 			numberOfPlayersInGame++;
 		}
-		if (enemyTime < Time.time - 4.0f) {
+		if (enemyTime < Time.time) {
 			Instantiate (enemies, new Vector2 (enemiesSpawn.x, enemiesSpawn.y), new Quaternion (0, 0, 0, 0));
-			enemyTime = Time.time;
+			Random random = new Random();
+			float randomTime = ((float) random.next(0, 1000)) /250;
+			enemyTime = Time.time + randomTime;
 		}
 		//playerController.
 	}

@@ -5,6 +5,8 @@ TagManager:
   tags:
   - point
   - dead
+  - ground
+  - deadPlayer
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

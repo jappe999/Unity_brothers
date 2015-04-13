@@ -534,14 +534,14 @@ MonoBehaviour:
   backgroundSpawn:
     x: 0
     y: 0
-  enemies: {fileID: 199144, guid: 96a4281699bda9d4dac932c217d1e36f, type: 2}
+  enemies: {fileID: 120614, guid: 94fcab5c01315f148bbbeabe5b059801, type: 2}
   enemiesSpawn:
-    x: 18
+    x: 12
     y: -2.44000006
   player: {fileID: 139510, guid: 817ab3b3f7f292e4683c63284b8d785b, type: 2}
   numberOfPlayersAllowed: 1
   playerSpawn:
-    x: 0
+    x: -4
     y: 0
   playerController: {fileID: 0}
 --- !u!4 &1618446413

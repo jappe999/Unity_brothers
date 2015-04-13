@@ -18,6 +18,7 @@ public class GameController : MonoBehaviour {
 	public Position playerSpawn;
 	private int numberOfPlayersInGame;
 
+	private float enemyTime;
 	private float startTime;
 
 	[HideInInspector]
@@ -30,6 +31,7 @@ public class GameController : MonoBehaviour {
 		Instantiate(background, new Vector2(backgroundSpawn.x, backgroundSpawn.y), new Quaternion(0, 0, 0, 0));
 		numberOfPlayersInGame = 0;
 		startTime = Time.time;
+		enemyTime = Time.time;
 		playerController = player.GetComponent<PlayerController>() ;
 	}
 	
@@ -39,8 +41,11 @@ public class GameController : MonoBehaviour {
 		if(testPlayerSpawnable())
 		{
 			Instantiate(player, new Vector2(playerSpawn.x, playerSpawn.y), new Quaternion(0, 0, 0, 0));
-			Instantiate(enemies, new Vector2(enemiesSpawn.x, enemiesSpawn.y), new Quaternion(0, 0, 0, 0));
 			numberOfPlayersInGame++;
+		}
+		if (enemyTime < Time.time - 4.0f) {
+			Instantiate (enemies, new Vector2 (enemiesSpawn.x, enemiesSpawn.y), new Quaternion (0, 0, 0, 0));
+			enemyTime = Time.time;
 		}
 		//playerController.
 	}

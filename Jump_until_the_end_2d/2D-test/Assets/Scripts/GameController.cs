@@ -46,8 +46,8 @@ public class GameController : MonoBehaviour {
 		}
 		if (enemyTime < Time.time) {
 			Instantiate (enemies, new Vector2 (enemiesSpawn.x, enemiesSpawn.y), new Quaternion (0, 0, 0, 0));
-			Random random = new Random();
-			float randomTime = ((float) random.next(0, 1000)) /250;
+			System.Random random = new System.Random();
+			float randomTime = ((float) random.Next(0, 1000)) /500 + 1;
 			enemyTime = Time.time + randomTime;
 		}
 		//playerController.

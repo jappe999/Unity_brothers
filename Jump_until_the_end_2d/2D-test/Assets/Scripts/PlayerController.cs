@@ -65,7 +65,14 @@ public class PlayerController: MonoBehaviour
 		if(other.gameObject.tag == "dead")
 			anim.SetBool ("Die", true);
 		else if(other.gameObject.tag == "point")
-			timeLastPointObtained = Time.time;
+		{
+			obstacleBehaviour pointScript = other.GetComponent<obstacleBehaviour>();
+			if(!pointScript.passed)
+			{
+				timeLastPointObtained = Time.time;
+				pointScript.passed = true;
+			}
+		}
 	}
 
 	private bool testGrounded()
@@ -86,6 +93,9 @@ public class PlayerController: MonoBehaviour
 			gameObject.tag = "deadPlayer";
 			dead = true;
 		} else if (other.tag == "point")
+		{
 			score++;
+			other.tag = "ground";
+		}
 	}
 }

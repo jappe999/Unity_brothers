@@ -28,14 +28,17 @@ public class GameController : MonoBehaviour {
 
 	[HideInInspector]
 	public PlayerController playerController;
-	[HideInInspector]
-	public int score = 0;
+
+	private int score = 0;
+	private int highScore = 0;
 
 	private bool initialiseNeeded = true;
 	private float removeTime;
 	private bool deathFase = false;
 	private GameObject[] obstacleArray;
 	private int obstacleArrayIterator = 0;
+
+	public GameObject scoreText;
 
 	void Initialise () 
 	{
@@ -50,6 +53,7 @@ public class GameController : MonoBehaviour {
 		deathFase = false;
 		obstacleArray = new GameObject[10];
 		obstacleArrayIterator = 0;
+		scoreText.guiText.text = "Score: 0";
 	}
 
 	void Update () 
@@ -57,12 +61,18 @@ public class GameController : MonoBehaviour {
 		if(initialiseNeeded)
 			Initialise();			
 		else
-			{
+		{
+			score = playerController.score;
+			scoreText.guiText.text = "Score: " + score;
+
 			if(playerController.dead)
 				deathFase = true;
 
 			if(deathFase)
 			{
+				if(score > highScore)
+					highScore = score;
+
 				Destroy (activePlayGround);
 				score = 0;
 				numberOfPlayersInGame--;
@@ -78,6 +88,7 @@ public class GameController : MonoBehaviour {
 					BackgroundMover background = (BackgroundMover) FindObjectOfType(typeof(BackgroundMover));
 					background.remove = true;
 					initialiseNeeded = true;
+					scoreText.guiText.text = "Highscore: " + highScore;
 				}
 				else
 					removeTime -= Time.deltaTime;

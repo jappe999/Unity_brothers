@@ -2,8 +2,9 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameController.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameController.cs" Line="83" Column="35" />
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="57" Column="26" />
+      <File FileName="Assets\Scripts\GameController.cs" Line="75" Column="5" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="98" Column="23" />
+      <File FileName="Assets\Scripts\obstacleBehaviour.cs" Line="9" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

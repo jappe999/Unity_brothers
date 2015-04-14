@@ -1,0 +1,20 @@
+Initialize engine version: 4.6.2f1 (bd99309c2ad7)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GT 640M      (ID=0xfd2)
+    Vendor:   NVIDIA
+    VRAM:     1986 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.121 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+Platform assembly: C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Erik Baalbergen\Documents\Unity_brothers\binaries\PC\Windows\x86\run_Data\Managed\System.dll (this message is harmless)

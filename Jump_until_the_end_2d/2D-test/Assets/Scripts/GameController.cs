@@ -91,7 +91,7 @@ public class GameController : MonoBehaviour {
 				}
 				if(enemyTime < Time.time) {
 					obstacleArray[obstacleArrayIterator] = Instantiate (enemies, new Vector2 (enemiesSpawn.x, enemiesSpawn.y), new Quaternion (0, 0, 0, 0)) as GameObject;
-					if(obstacleArrayIterator < 10)
+					if(obstacleArrayIterator < 9)
 						obstacleArrayIterator++;
 					else
 						obstacleArrayIterator = 0;

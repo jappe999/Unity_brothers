@@ -188,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxSpeed: 2
-  deleteXValue: -40
+  deleteXValue: -10
   forwardMoving: 1
 --- !u!212 &21203486
 SpriteRenderer:

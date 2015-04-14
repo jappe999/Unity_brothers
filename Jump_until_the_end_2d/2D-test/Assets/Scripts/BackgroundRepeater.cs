@@ -5,7 +5,6 @@ public class BackgroundRepeater : MonoBehaviour {
 	public GameObject background;
 	public Transform backgroundSpawn;
 	public float rate;
-	
 	private float nextBackground;
 
 	void Start ()
